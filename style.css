@@ -2,3 +2,58 @@
     margin: 0;
     scroll-behavior: smooth;
 }
+
+p, h1{
+    color: whitesmoke;
+}
+
+body {
+    background-color: #0300b54e;
+}
+
+.content-header {
+    width: 100%;
+    background-color: #0008C5;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-placeholder {
+    width: 230px;
+    height: 90px;
+    background-color: white;
+    margin: 20px;
+}
+
+.logo-menu-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-header-contact {
+    align-self: center;
+    margin: 5px;
+}
+
+.fa-solid {
+    align-self: flex-end;
+    padding: 20px;
+    align-self: flex-start;
+    margin: 12px;
+}
+
+.first-article, .second-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+    text-align: center;
+  
+}
+
+.first-article h1 {
+ margin: 10px;
+}
+
+
