@@ -56,4 +56,10 @@ body {
  margin: 10px;
 }
 
+.google-maps {
+    width: 95%;
+    height: 300px;
+    margin: 5px;
+}
+
 
