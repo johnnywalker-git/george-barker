@@ -3,6 +3,8 @@ let menuBar = document.getElementById("menu-bar")
 
 
 menuToggle.addEventListener("click", openMenu)
+menuToggle.addEventListener("touchstart", openMenu);
+
 
 
 function openMenu() {
