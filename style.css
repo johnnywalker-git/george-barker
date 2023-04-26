@@ -17,11 +17,25 @@ body {
 
 }
 
-title-wrapper {
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.title-wrapper {
 display: flex;
 flex-direction: column;
 justify-content: center;
 text-align: center;
+}
+
+.menu-desktop {
+    align-self: center;
+    display: flex;
+}
+
+.title-wrapper h1:nth-child(2) {
+    padding: 10px;
 }
 
 .content-header {
@@ -48,6 +62,11 @@ text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-self: center;
+}
+
+#menu-button {
+display: none;
 }
 
 .content-header-contact {
@@ -68,13 +87,6 @@ text-align: center;
     align-items: center;
     margin: 10%;
     text-align: justify;
-  
-}
-
-.first-article h1 {
- margin: 1px;
-text-align: justify;
-align-self: center;
 }
 
 .menu-slider {
@@ -84,6 +96,14 @@ align-self: center;
     background-color: #0008C5;
     z-index:-1;
     position: relative;
+}
+
+#desktop-buttons {
+    width: 25px;
+    height: 40px;
+    padding: 3px;
+    border: 1px solid rgba(255,255,255,0.67);
+    border-radius: 2px;
 }
 
 #menu-bar {
@@ -104,10 +124,15 @@ align-self: center;
 
 .mobile-buttons {
     width: 100%;
-    margin: 20px;
+    height: auto;
+    margin: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 5px;
+    
+    
 }
 
 footer {
@@ -136,6 +161,9 @@ footer {
         background: #4433ff;
         margin: 2px;
         width: 200px;
+        border: 1px solid rgba(255,255,255,0.67);
+        border-radius: 2px;
+        margin: 2px;
 }
 
 .css-button-sharp--sky:hover {
@@ -143,5 +171,18 @@ footer {
         color: #4433ff
 }
 
+
+@media (max-width:1000px) {
+#desktop-buttons {
+    display: none;
+}
+
+#menu-button {
+    display: flex;
+}
+
+
+
+}
 
 
