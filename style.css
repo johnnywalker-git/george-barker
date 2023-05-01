@@ -167,6 +167,15 @@ footer {
         margin: 2px;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    text-decoration: none;
+}
+
 .css-button-sharp--sky:hover {
         background: #fff;
         color: #4433ff
