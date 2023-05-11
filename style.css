@@ -55,8 +55,10 @@ text-align: center;
 .logo-placeholder {
     width: 230px;
     height: 90px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     margin: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .logo-menu-button {
@@ -165,6 +167,13 @@ footer {
         border: 1px solid rgba(255,255,255,0.67);
         border-radius: 2px;
         margin: 2px;
+}
+
+.logo-img {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    justify-self: center;
 }
 
 .contact-form {
